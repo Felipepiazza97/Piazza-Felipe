@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Argentum Online</title>
      <link rel="stylesheet" href="style.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     
+     <link rel="shortcut icon" href="ao.png">
      <link
 href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
 rel="stylesheet"
@@ -20,38 +23,36 @@ crossorigin="anonymous"
 </head>
 <body class="body">
     
-    <header class="menuu">   <!-- cabeza -->
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="menu" href="#">Menu de navegación</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                      </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="paginas/estadisticas.html">Estadisticas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="paginas/manual.html">Manual</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-l" href="paginas/reglamento.html">Reglamento</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-l" href="paginas/descargas.html">Descargar</a>
-                  </li>
-                </ul>
-               
-              </div>
-            </div>
-          </nav>
+    <header>
+        
+      <nav class="navbar navbar-expand-lg navbar-light bg-night">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./paginas/descargas.html">Descargas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/estadisticas.html">Estadisticas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./paginas/reglamento.html" tabindex="-1" >Reglamento</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        
 
-     
-    </header>
+        </header>
+
 
 <br>
 <br>
@@ -60,16 +61,21 @@ crossorigin="anonymous"
 
         <section class="bodyyy">
           <div class="bodyyy">
-            <div class="card" style="width: 50rem;">
-               <h5 class="imagenes">Imagenes del juego</h5>
-               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQnUcG1VP2MOkrkK-EjABZevo_kSfgPbkLnQ&usqp=CAU" class="fotouno" alt="...">
-               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHwOChSW4zNRl_FXvA4wIQ8TM0uzVqKvf_qg&usqp=CAU" class="fotodos" alt="...">
-               <div class="card-body">
+            <h1 data-aos="fade-down" class="historia">Bienvenidos a Argentum Online</h1>
+
+            <div class="img-container">
+              <img class="img-inicio" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQnUcG1VP2MOkrkK-EjABZevo_kSfgPbkLnQ&usqp=CAU" class="fotouno" alt="...">
+              <img class="img-inicio" src="https://www.foro3d.com/attachments/231889d1586989127-argentum-online-c-remasterizado-argentum-2.png" class="fotodos" alt="...">
+            </div>
+          </div>
+
+
         </section>
 
 <br>
 
-        <article>
+
+  <article data-aos="fade-down-left" class="reglamento" >
           <h2 class="historia">Historia del juego</h2>
           <p class="fs-4">Argentum Online, conocido también como AO, es un videojuego de rol multijugador masivo en línea libre disponible para los sistemas operativos Microsoft Windows y publicado en el año 1999 en Internet de manera independiente.El juego está programado en Visual Basic 6.0, sobre el engine ORE ,desarrollado por Baronsoft.</p>
             <p class="fs-5">El juego es una modificación de ORE v. 0.4 (desarrollado por Baronsoft y Maraxus) , realizada en el año 1999. Es considerado el primer MMORPG argentino.El motor utilizado es 2D, con un estilo visual simple y una vista aérea.Nació entre otras cosas como una alternativa gratuita y en español a los juegos comerciales de la época que eran predominantemente en inglés y con suscripciones de alrededor de 20 dólares.Para mayo del 2001 ya contaba con alrededor de 900 jugadores habituales en la plataforma, que se conectaban además desde Argentina, de países como España, México, Uruguay, Chile y Colombia.</p>
@@ -79,22 +85,103 @@ crossorigin="anonymous"
             <p class="fs-5">Argentum Online también fue tendencia, ya que fue considerado como el mejor juego 2D.</p>
             
         </article>
-        
 
-
-    </main>
-
-
-    <footer class="bodyy">
       
-        <ul>
-            <h3 class="redes">Redes sociales</h3>
-              <img src="https://static.vecteezy.com/system/resources/previews/002/405/716/non_2x/social-media-icons-black-and-white-set-free-vector.jpg" class="fotos" alt="...">
-  
+      </main>
+        <footer
+                class="text-center text-lg-start text-white"
+                style="background-color: #929fba"
+                >
+          
+          <div class="container p-4 pb-0">
            
-        </ul>
+            <section class="">
+             
+              <div class="row">
+               
+                <div class="col-md-5 col-lg-6 col-xl-8 mx-auto mt-6">
+                  
+                  <p class="text-uppercase mb-4 font-weight-bold ">
+                    Descubrí el mundo abierto de Argentum 
+                  </p>
+                  <p class="p">
+                    Recorré las peligrosas tierras de Argentum, luchá con criaturas, encontrá tesoros y forjá alianzas con otros jugadores en este juego de rol multiplayer. <hr>
+                    <p class="p">¡Empezá a jugar con tus amigos ahora, es totalmente gratis!</p>
+                  </p>
+                </div>
+                
+                <hr class="w-100 clearfix d-md-none" />
+      
+      
+                <hr class="w-100 clearfix d-md-none" />
+      
 
-    </footer>
+                <hr class="w-100 clearfix d-md-none" />
+      
+           
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Seguinos en nuestras redes:</h6>
+      
+                  
+                  <a
+                  
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #3b5998"
+                     link rel="shortcut icon" 
+                     href="facebook.png"
+                     role="button"
+                     ><i class="facebook-icone-bleu"></i
+                    
+                    ></a>
+                 
+                   
+                   
+      
+                
+                  <a
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #55acee"
+                     href="facebook.com"
+                     role="button"
+                     
+                     ><i class="data:image/png;base64,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"></i
+                    ></a>
+                    
+                
+                  <a
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #dd4b39"
+                     href="#!"
+                     role="button"
+                     ><i class="fab fa-google"></i
+                    ></a>
+         
+                </div>
+              </div>
+          
+            </section>
+           
+          </div>
+         
+          <div
+               class="text-center p-3"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            Argentum Online
+            <a class="text-white" href="https://argentumonline.com/"
+              
+              >
+          </div>
+        
+        </footer>
+    
+
+    
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      duration: 3000;
+    </script>
 </body>
 </html>
