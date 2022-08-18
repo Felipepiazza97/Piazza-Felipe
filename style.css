@@ -1,138 +1,159 @@
-
+/* Parte del body */
 .body {
-    background:linear-gradient(rgb(36%, 37%, 23%), rgb(34%, 45%, 56%)),rgb(30%, 14%, 26%)
+  background: -webkit-gradient(linear, left top, left bottom, from(#5c5e3b), to(#57738f)), #4d2442;
+  background: linear-gradient(#5c5e3b, #57738f), #4d2442;
+  color:blanchedalmond;
 }
 
 .bodyy {
-    background:linear-gradient(rgb(36%, 37%, 23%), rgb(34%, 45%, 56%)),rgb(30%, 14%, 26%)
+  background: -webkit-gradient(linear, left top, left bottom, from(#5c5e3b), to(#57738f)), #4d2442;
+  background: linear-gradient(#5c5e3b, #57738f), #4d2442;
 }
 
 .bodyyy {
-    background:linear-gradient(rgb(36%, 37%, 23%), rgb(34%, 45%, 56%)),rgb(30%, 14%, 26%)
+  background: -webkit-gradient(linear, left top, left bottom, from(#5c5e3b), to(#57738f)), #4d2442;
+  background: linear-gradient(#5c5e3b, #57738f), #4d2442;
 }
-.menu {
-    color:darkorange;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-
-.card{
-
-    background:linear-gradient(rgb(36%, 37%, 23%), rgb(34%, 45%, 56%)),rgb(30%, 14%, 26%)
-
-}
-
-.menuu {
-    background:linear-gradient(rgb(36%, 37%, 23%), rgb(34%, 45%, 56%)),rgb(30%, 14%, 26%)
-}
+/* Aca termina body */
 
 .historia {
-    color: darkorange;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+  color: darkorange;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .imagen {
-    color:darkorange;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkorange;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.redes {
-    color:darkorange;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
+/* MENU DE NAVEGACION */
 .paginas {
-        
-        background-color: black;
-        display:flex;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-
-.parrafouno {
-        
-    background-color: grey;
-    
-}
-
-.parrafodos {
-        
-    background-color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-.parrafotres {
-        
-    background-color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-.parrafocuatro {
-        
-    background-color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-.parrafocinco {
-        
-    background-color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.parrafoseis {
-        
-    background-color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-.parrafosiete {
-        
-    background-color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-.fotos {
-    display: flex;
-    width: 140px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
 
 .imagenes {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color:darkorange ;
-    
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: darkorange;
 }
 
 .fotouno {
-    width: 285px;
-    margin-left: auto;
-    margin-right: auto;
-    
+  width: 285px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.fotodos {
-    
- width: 285px;
- margin-left: auto;
-margin-right: auto;  
+
+/*# sourceMappingURL=style.css.map */
+
+
+.pela{
+  border-radius: 50px;
+  background-color: gray;
 }
 
-.fotores {
-   width: 10px;
-   margin-left: auto;
-   margin-right: auto;
-    
+
+p{
+  text-align: center;
 }
+
+
+/* PAGINA DE ESTADISTICAS */
+
+.opciones{
+  display:block;
+  margin:auto;
+}
+.estadisticas{
+  margin: 50px;
+  border-radius: 15px;
+  box-shadow: 5px 0px 15px 3px;
+}
+
+.img-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+.img-estadisticas{
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  box-shadow: 5px 0px 15px 3px;
+  
+}
+
+.descargas{
+  margin: 50px;
+  border-radius: 15px;
+  box-shadow: 5px 0px 15px 3px;
+  }
+
+  .pp{
+    text-align: center;
+    color: darkorange;
+  }
+
+  /* INDEX*/
+  .container-fluid{
+    color:blanchedalmond;
+  }
+
+
+/* PAGINA DE INICIO */
+
+.img-inicio{
+  width: 360px;
+  height: 260px;
+  border-radius: 5px;
+  border: 5px solid #fff;
+  box-shadow: 5px 0px 15px 3px;
+  margin-top: 50px;
+}
+
+
+.navegador{
+  padding: 20px;
+}
+
+/* MANUAL*/
+
+.fotoo {
+  width: 600px;
+  height: 600px;
+  margin-top: 40px;
+}
+
+/* REGLAMENTO*/
+.reglamento{
+  margin: 50px;
+  padding: 80px;
+  border-radius: 15px;
+  box-shadow: 5px 0px 15px 3px;
+}
+
+
+  /* INDEX*/
+  .container-fluid{
+    color:blanchedalmond;
+  }
+
+
+
+

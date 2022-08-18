@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Argentum Online, conocido también como AO, es un videojuego de rol multijugador masivo en línea libre disponible para los sistemas operativos Microsoft Windows y publicado en el año 1999 en Internet de manera independiente.3">
+    <meta name="keywords" content="Juegos, juegos online 2D, juego para divertirse">
+    <meta name="author" content="Felipe Piazza">
+    <meta name="copyright" content="Pablo Marquez">
     <title>Argentum Online</title>
      <link rel="stylesheet" href="style.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+     
+     <link rel="shortcut icon" href="ao.png">
      <link
 href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
 rel="stylesheet"
@@ -20,56 +28,56 @@ crossorigin="anonymous"
 </head>
 <body class="body">
     
-    <header class="menuu">   <!-- cabeza -->
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="menu" href="#">Menu de navegación</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                      </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="paginas/estadisticas.html">Estadisticas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="paginas/manual.html">Manual</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-l" href="paginas/reglamento.html">Reglamento</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-l" href="paginas/descargas.html">Descargar</a>
-                  </li>
-                </ul>
-               
-              </div>
-            </div>
-          </nav>
+    <header>
+        <!-- Aca empieza el HEADER -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-night">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./paginas/descargas.html">Descargas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/estadisticas.html">Estadisticas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./paginas/reglamento.html" tabindex="-1" >Reglamento</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        
+ <!-- Aca termina el HEADER -->
+        </header>
 
-     
-    </header>
-
-<br>
-<br>
+<!-- Aca empieza el MAIN -->
     <main>
 
 
         <section class="bodyyy">
           <div class="bodyyy">
-            <div class="card" style="width: 50rem;">
-               <h5 class="imagenes">Imagenes del juego</h5>
-               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQnUcG1VP2MOkrkK-EjABZevo_kSfgPbkLnQ&usqp=CAU" class="fotouno" alt="...">
-               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHwOChSW4zNRl_FXvA4wIQ8TM0uzVqKvf_qg&usqp=CAU" class="fotodos" alt="...">
-               <div class="card-body">
+            <h1 data-aos="fade-down" class="historia">Bienvenidos a Argentum Online</h1>
+
+            <div class="img-container">
+              <img class="img-inicio" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQnUcG1VP2MOkrkK-EjABZevo_kSfgPbkLnQ&usqp=CAU" class="fotouno" alt="Logo original de Argentum Online">
+              
+            </div>
+          </div>
+
+
         </section>
 
-<br>
 
-        <article>
+<!-- Esta es la historia de Argentum Online -->
+  <article data-aos="fade-down-left" class="reglamento" >
           <h2 class="historia">Historia del juego</h2>
           <p class="fs-4">Argentum Online, conocido también como AO, es un videojuego de rol multijugador masivo en línea libre disponible para los sistemas operativos Microsoft Windows y publicado en el año 1999 en Internet de manera independiente.El juego está programado en Visual Basic 6.0, sobre el engine ORE ,desarrollado por Baronsoft.</p>
             <p class="fs-5">El juego es una modificación de ORE v. 0.4 (desarrollado por Baronsoft y Maraxus) , realizada en el año 1999. Es considerado el primer MMORPG argentino.El motor utilizado es 2D, con un estilo visual simple y una vista aérea.Nació entre otras cosas como una alternativa gratuita y en español a los juegos comerciales de la época que eran predominantemente en inglés y con suscripciones de alrededor de 20 dólares.Para mayo del 2001 ya contaba con alrededor de 900 jugadores habituales en la plataforma, que se conectaban además desde Argentina, de países como España, México, Uruguay, Chile y Colombia.</p>
@@ -79,22 +87,98 @@ crossorigin="anonymous"
             <p class="fs-5">Argentum Online también fue tendencia, ya que fue considerado como el mejor juego 2D.</p>
             
         </article>
-        
 
-
-    </main>
-
-
-    <footer class="bodyy">
-      
-        <ul>
-            <h3 class="redes">Redes sociales</h3>
-              <img src="https://static.vecteezy.com/system/resources/previews/002/405/716/non_2x/social-media-icons-black-and-white-set-free-vector.jpg" class="fotos" alt="...">
-  
+      <!-- Aca termina el MAIN -->
+      </main>
+      <!-- Aca empieza el FOOTER -->
+        <footer
+                class="text-center text-lg-start text-white"
+                style="background-color: #929fba"
+                >
+          
+          <div class="container p-4 pb-0">
            
-        </ul>
+            <section class="">
+             
+              <div class="row">
+               
+                <div class="col-md-5 col-lg-6 col-xl-8 mx-auto mt-6">
+                  
+                  <p class="text-uppercase mb-4 font-weight-bold ">
+                    Descubrí el mundo abierto de Argentum 
+                  </p>
+                  <p class="p">
+                    Recorré las peligrosas tierras de Argentum, luchá con criaturas, encontrá tesoros y forjá alianzas con otros jugadores en este juego de rol multiplayer. <hr>
+                    <p class="p">¡Empezá a jugar con tus amigos ahora, es totalmente gratis!</p>
+                  </p>
+                </div>
+                
+                <hr class="w-100 clearfix d-md-none" />
+      
+      
+                <hr class="w-100 clearfix d-md-none" />
+      
 
-    </footer>
+                <hr class="w-100 clearfix d-md-none" />
+      
+           
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Seguinos en nuestras redes:</h6>
+      
+                  
+                  <a
+                  
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #3b5998"
+                     link rel="shortcut icon" 
+                     href="facebook.png"
+                     role="button"
+                     ><i class="fab fa-facebook"></i
+                    
+                    ></a>    
+                
+                  <a
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #55acee"
+                     href="facebook.com"
+                     role="button"
+                     
+                     ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    
+                
+                  <a
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #dd4b39"
+                     href="#!"
+                     role="button"
+                     ><i class="fab fa-google"></i
+                    ></a>
+         
+                </div>
+              </div>
+          
+            </section>
+           
+          </div>
+         
+          <div
+               class="text-center p-3"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            Argentum Online
+            <a class="text-white" href="https://argentumonline.com/"
+              
+              >
+          </div>
+        
+        </footer>
+    
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      duration: 3000;
+    </script>
 </body>
 </html>
